@@ -1,0 +1,71 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-image : url("Anadolu-Universitesi.jpg");
+    color: blueviolet; 
+
+}
+
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    background-size: cover;
+    background-position: center ;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(187, 8, 145, 0.8); 
+    background-color: black;
+    
+    
+ }
+
+
+ label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background : transparent;
+    color: blueviolet;
+}
+
+button {
+    background-color: #4e0648;
+    color: #f0eeee;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top : 150px
+}
+
+button:hover {
+    background-color: #45a049;
+    
+}
+
+#result {
+    margin-top: 20px;
+    color: #840303;
+   
+}
+
+
